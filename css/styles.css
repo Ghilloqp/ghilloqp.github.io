@@ -1,21 +1,29 @@
 body {
-    background-color: #b1b1b1;
+    background-color: #dfdfdf;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #0c0fa3;
+    background-color: #4f058b;
     color: #b1b1b1;
-    font-size: 200%;
+    font-size: 110%;
     text-align: right;
+    padding-right: 20px;
+}
+footer {
+    background-color: #4f058b;
+    color: #b1b1b1;
+    font-size: 110%;
+    text-align: right;
+    padding-right: 20px;
 }
 h1 {
     border-top:  2px solid #000000;
     border-bottom:  2px solid #000000;
-    color: #b1b1b1;
+    color: white;
     font-size: 500%;
     text-align: center;
-    background-color: #0c0fa3;
+    background-color: #039422;
     margin: 0;
     padding: 0;
     padding-top: 20px;
