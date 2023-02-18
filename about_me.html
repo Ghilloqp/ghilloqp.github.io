@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/carosel.css">
     </head>
     <header>
         <a href="index.html">Home</a>
@@ -11,4 +12,80 @@
     <h1>
         About Me
     </h1>
+    <p>
+        I am a current student at Michigan Tech University majoring in Computer Science. I have an expected graduation of December 2023. I am from Detroit, Michigan. I want to pursue making 
+        video-games and learning Japanese. I enjoy reading, playing video-games, and cooking. Below are pictures I've either created or taken, from various parts of my life.
+    </p>
+    <div>
+        <img src="Images/Myself/the truth.png" alt="A fun picture I made." class="center">
+        <p class="center">
+            A fun picture I made in photoshop.
+        </p>
+    </div>
+    <div>
+        <p class="center">
+            Here are a few photos from my study abroad to Japan. I studied abroad through JCMU (Japan Center for Michigan Universities) in Hikone. I plan on continuing my study of Japanese.
+        </p>
+        <div class="slideshow-container fade">
+            <div class="mySlides">
+                <img src="Images/Japan/osaka_castle.jpg" style="width: 600px; height: 800px;">
+                <div class="text">Osaka Castle</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/overgrown_moat.jpg" style="width: 800px; height: 600px;">
+                <div class="text">Osaka Castle's moat, overgrown</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/sky_tower.jpg" style="width: 600px; height: 800px;">
+                <div class="text">Tokyo Sky Tree</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/valley.jpg" style="width: 600px; height: 800px;">
+                <div class="text">View of valley in mountains near Kyoto</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/nagohama.jpg" style="width: 600px; height: 800px;">
+                <div class="text">View of Nagahama from nearby mountain</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/mount_ibuki.jpg" style="width: 800px; height: 600px;">
+                <div class="text">Mount Ibuki, near Hikone</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/field.jpg" style="width: 800px; height: 600px;">
+                <div class="text">Field in Hikone</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/water_path.jpg" style="width: 600px; height: 800px;">
+                <div class="text">A river running through a city</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/yokohama_view.jpg" style="width: 800px; height: 600px;">
+                <div class="text">View of Yokohama from nearby mountain</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Myself/me_archer.jpg" style="width: 600px; height: 800px;">
+                <div class="text">Me in an archaeology museum</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="Images/Japan/last_day.jpg" style="width: 800px; height: 600px;">
+                <div class="text">Picture from train on my last day</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>  
+        <br>
+    </div>
+    <script src="js/carosel_js.js"></script>
 </html>
