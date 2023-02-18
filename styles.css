@@ -38,3 +38,7 @@ p {
     margin-right: auto;
     text-align: center;
 }
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
