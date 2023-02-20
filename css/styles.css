@@ -56,7 +56,12 @@ p {
     margin-right: auto;
     text-align: center;
 }
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding-right: 20px;
+}
 a:visited {
     text-decoration: none;
-    color: blue;
+    color: #f2f2f2;
 }
