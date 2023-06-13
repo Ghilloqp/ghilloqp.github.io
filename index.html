@@ -1,28 +1,43 @@
+<!-- Find out why header, footer, and h1 don't expand when mobile and 
+        how to fix photos for mobile view. Add alt texts to images
+        Shift + alt + f to auto format -->
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <header>
-        <a href="index.html">Home</a> &nbsp &nbsp
-        <a href="about_me.html">About Me</a> &nbsp &nbsp
+<head>
+    <link rel="stylesheet" href="css/main_headings.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<header>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about_me.html">About Me</a>
         <a href="projects.html">Projects</a>
-    </header>
+    </div>
+</header>
+
+<div>
     <h1>
         Noah Santoscoy's Website
     </h1>
     <p>
-        Welcome to my website! This site is hosted by Google Domains but everything here is programed by me as part of teaching myself HTML and getting a portfolio started. Please feel free to explore around the site!
+        Welcome to my website! This site is hosted by Google Domains but everything here is programed by me as part of
+        teaching myself HTML and getting a portfolio started. Please feel free to explore around the site!
     </p>
     <div>
-        <img src="Images/Myself/noah.jpg" alt="A picture of myself." width="700" height="500" class="center">
+        <img src="Images/Myself/noah.jpg" alt="A picture of myself." width="device-width" height="500" class="center photo">
         <p class="center">
             A picture of me in Chicago!
         </p>
     </div>
-    <footer>
-        <a href="mailto:noahsantoscoy9@gmail.com">Email</a> &nbsp &nbsp
-        <a href="https://github.com/Ghilloqp?tab=repositories">GitHub</a> &nbsp &nbsp
-        <a href="www.linkedin.com/in/noah-santoscoy">LinkedIn</a>
-    </footer>
+</div>
+<footer>
+    <a href="mailto:noahsantoscoy9@gmail.com">Email</a> &nbsp &nbsp
+    <a href="https://github.com/Ghilloqp?tab=repositories">GitHub</a> &nbsp &nbsp
+    <a href="https://www.linkedin.com/in/noah-santoscoy">LinkedIn</a>
+</footer>
+
 </html>

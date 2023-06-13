@@ -1,99 +1,120 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/carosel.css">
-    </head>
-    <header>
-        <a href="index.html">Home</a> &nbsp &nbsp
-        <a href="about_me.html">About Me</a> &nbsp &nbsp
+<head>
+    <link rel="stylesheet" href="css/main_headings.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="css/carosel.css">
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<header>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="about_me.html">About Me</a>
         <a href="projects.html">Projects</a>
-    </header>
+    </div>
+</header>
+
+<div>
     <h1>
         About Me
     </h1>
+
     <p class="center">
-        I am a current student at Michigan Tech University majoring in Computer Science. I have an expected graduation of December 2023. I am from Detroit, Michigan. I want to pursue making 
-        video-games and learning Japanese. I enjoy reading, playing video-games, and cooking. Linked below is my current resume and below that are a few photos I've taken.
+        I am a current student at Michigan Tech University majoring in Computer Science. I have an expected graduation
+        of
+        December 2023. I am from Detroit, Michigan. I want to pursue making
+        video-games and learning Japanese. I enjoy reading, playing video-games, and cooking. Linked below is my current
+        resume and below that are a few photos I've taken.
     </p>
-    <a href="resume.pdf" download class="center">My Resume</a>
+
+    <a href="resume.pdf" download class="center" id="link">My Resume</a>
+
     <br>
     <br>
+
     <div>
-        <img src="Images/Myself/the truth.png" alt="A fun picture I made." class="center">
+        <img src="Images/Myself/the truth.png" alt="A fun picture I made." class="center photo">
         <p class="center">
             A fun picture I made in photoshop.
         </p>
     </div>
+
     <div>
         <p class="center">
-            Here are a few photos from my study abroad to Japan. I studied abroad through JCMU (Japan Center for Michigan Universities) in Hikone. I plan on continuing my study of Japanese.
+            Here are a few photos from my study abroad to Japan. I studied abroad through JCMU (Japan Center for
+            Michigan
+            Universities) in Hikone. I plan on continuing my study of Japanese.
         </p>
+
         <div class="slideshow-container fade">
             <div class="mySlides">
-                <img src="Images/Japan/osaka_castle.jpg" style="width: 600px; height: 800px;">
+                <img class="photo" src="Images/Japan/osaka_castle.jpg" style="width: 600px; height: 800px;">
                 <div class="text">Osaka Castle</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/overgrown_moat.jpg" style="width: 800px; height: 600px;">
+                <img class="photo" src="Images/Japan/overgrown_moat.jpg" style="width: 800px; height: 600px;">
                 <div class="text">Osaka Castle's moat, overgrown</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/sky_tower.jpg" style="width: 600px; height: 800px;">
+                <img class="photo" src="Images/Japan/sky_tower.jpg" style="width: 600px; height: 800px;">
                 <div class="text">Tokyo Sky Tree</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/valley.jpg" style="width: 600px; height: 800px;">
+                <img class="photo" src="Images/Japan/valley.jpg" style="width: 600px; height: 800px;">
                 <div class="text">View of valley in mountains near Kyoto</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/nagohama.jpg" style="width: 600px; height: 800px;">
+                <img class="photo" src="Images/Japan/nagohama.jpg" style="width: 600px; height: 800px;">
                 <div class="text">View of Nagahama from nearby mountain</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/mount_ibuki.jpg" style="width: 800px; height: 600px;">
+                <img class="photo" src="Images/Japan/mount_ibuki.jpg" style="width: 800px; height: 600px;">
                 <div class="text">Mount Ibuki, near Hikone</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/field.jpg" style="width: 800px; height: 600px;">
+                <img class="photo" src="Images/Japan/field.jpg" style="width: 800px; height: 600px;">
                 <div class="text">Field in Hikone</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/water_path.jpg" style="width: 600px; height: 800px;">
+                <img class="photo" src="Images/Japan/water_path.jpg" style="width: 600px; height: 800px;">
                 <div class="text">A river running through a city</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/yokohama_view.jpg" style="width: 800px; height: 600px;">
+                <img class="photo" src="Images/Japan/yokohama_view.jpg" style="width: 800px; height: 600px;">
                 <div class="text">View of Yokohama from nearby mountain</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Myself/me_archer.jpg" style="width: 600px; height: 800px;">
+                <img class="photo" src="Images/Myself/me_archer.jpg" style="width: 600px; height: 800px;">
                 <div class="text">Me in an archaeology museum</div>
             </div>
 
             <div class="mySlides">
-                <img src="Images/Japan/last_day.jpg" style="width: 800px; height: 600px;">
+                <img class="photo" src="Images/Japan/last_day.jpg" style="width: 800px; height: 600px;">
                 <div class="text">Picture from train on my last day</div>
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>  
+        </div>
         <br>
     </div>
-    <footer>
-        <a href="mailto:noahsantoscoy9@gmail.com">Email</a> &nbsp &nbsp
-        <a href="https://github.com/Ghilloqp?tab=repositories">GitHub</a> &nbsp &nbsp
-        <a href="www.linkedin.com/in/noah-santoscoy-560917208">LinkedIn</a>
-    </footer>
-    <script src="js/carosel_js.js"></script>
+</div>
+<footer>
+    <a href="mailto:noahsantoscoy9@gmail.com">Email</a> &nbsp &nbsp
+    <a href="https://github.com/Ghilloqp?tab=repositories">GitHub</a> &nbsp &nbsp
+    <a href="https://www.linkedin.com/in/noah-santoscoy">LinkedIn</a>
+</footer>
+<script src="js/carosel_js.js"></script>
+
 </html>
