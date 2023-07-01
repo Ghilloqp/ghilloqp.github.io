@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/main_headings.css">
+    <link rel="stylesheet" href="css/rps.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about_me.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a class="active" href="rps.html">RPS</a>
+        </div>
+    </header>
+    <h1>
+        Rock Paper Scissors
+    </h1>
+    <p class="help-text">An html and javascript game of rock, paper, scissors I made</p>
+    <div class="score-board">
+        <div id="userLabel" class="badge user-badge">user</div>
+        <div id="computerLabel" class="badge comp-badge">comp</div>
+        <span id="userScore">0</span>:<span id="computerScore">0</span>
+    </div>
+    <div class="result">
+        <p></p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img onclick="shootRock()" src="Images/rps/rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img onclick="shootPaper()" src="Images/rps/paper.png">
+        </div>
+        <div class="choice" id="scissors">
+            <img onclick="shootScissors()" src="Images/rps/scissors.png">
+        </div>
+    </div>
+    <div class="help-text">
+        <p id="actionMessage">Make your choice</p>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <p class="reference">Credit for photos goes to Heather Hudson. The art is gotten from cards made by Wizards of the Coast for their game Magic the Gathering</p>
+    <div class="clear"></div>
+    <footer style="position: fixed; bottom: 0;">
+        <a href="mailto:noahsantoscoy9@gmail.com">Email</a> &nbsp &nbsp
+        <a href="https://github.com/Ghilloqp?tab=repositories">GitHub</a> &nbsp &nbsp
+        <a href="https://www.linkedin.com/in/noah-santoscoy">LinkedIn</a>
+    </footer>
+    <script src="js/rps.js"></script>
+</body>
+</html>
